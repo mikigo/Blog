@@ -6,7 +6,7 @@ import timeline from "vitepress-markdown-timeline";
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
     defineConfig({
-        // base: '/docs/',
+        base: '/Blog/',
         lang: 'zh-CN',
         title: "Blog | 技术博客",
         description: "专注于测试方向的技术分享交流平台",
