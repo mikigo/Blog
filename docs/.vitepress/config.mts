@@ -31,7 +31,7 @@ export default withMermaid(
         },
         themeConfig: {
             // https://vitepress.dev/reference/default-theme-config
-            siteTitle: "TDoc",
+            siteTitle: "mikigo blog",
             nav: [
                 {text: '🏠首页', link: '/index'},
                 {
