@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: Blog
-  text: "专注于测试方向的技术分享交流平台"
+  text: "技术分享交流平台"
   tagline: mikigo blog
 
   image:
-      src: /vitepress-logo-large.webp
-      alt: VitePress
+      src: /logo.jpg
+      alt: mikigo
 
 features:
   - icon: 📝

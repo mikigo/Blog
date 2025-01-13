@@ -62,12 +62,10 @@ export default withMermaid(
                             text: '根因分析',
                             link: '/技术文档/根因分析/Python调用动态库运行时报静态TLS块不能分配内存根因分析报告'
                         },
-                        {text: '软件测试技能', link: '/技术文档/软件测试技能/用例设计方法'},
                     ]
                 },
                 {
                     text: '分享有趣', items: [
-                        {text: '模板', link: '/分享有趣/模板'},
                         {text: '常见问题', link: '/分享有趣/常见问题/Wayland下sniff报错'},
                         {text: "经验总结", link: '/分享有趣/经验总结/中文文案排版指北'},
                         {text: "读书笔记", link: '/分享有趣/读书笔记/OpenStack系统架构设计实战'},
