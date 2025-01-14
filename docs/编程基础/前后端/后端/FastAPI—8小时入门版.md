@@ -231,7 +231,7 @@ async def read_item(name: str = ""):
 
 查询参数的键值在 URL 的 `？` 之后，并以 `&` 符号分隔，就和我们理解的普通 GET 请求参数传递方式是一样的；
 
-```txt
+```bash
 http://10.8.13.224:5000/items/?name=mikigo
 ```
 
@@ -337,7 +337,7 @@ def Query(
 
 请求：
 
-```txt
+```bash
 http://10.8.13.224:5000/query?name=mikigo
 ```
 
@@ -371,7 +371,7 @@ async def path_test(
 
 请求：
 
-```txt
+```bash
 http://10.8.13.224:5000/path/10?name=mikigo
 ```
 
@@ -404,7 +404,7 @@ async def body_test(
 
 请求：
 
-```txt
+```bash
 http://10.8.13.224:5000/body
 ```
 
@@ -460,7 +460,7 @@ async def field_test(
 
 请求：
 
-```txt
+```bash
 http://10.8.13.224:5000/field
 ```
 
@@ -537,7 +537,7 @@ async def header_test(user_agent: Union[str, None] = Header(default=None)):
 
 请求：
 
-```txt
+```bash
 http://10.8.13.224:5000/header
 ```
 

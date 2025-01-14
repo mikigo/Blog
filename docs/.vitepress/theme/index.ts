@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import { h, onMounted, watch, nextTick } from "vue";
-import giscusTalk from 'vitepress-plugin-comment-with-giscus';
+// import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute, inBrowser } from 'vitepress';
 import mediumZoom from 'medium-zoom';
 import vitepressBackToTop from 'vitepress-plugin-back-to-top';
@@ -50,23 +50,23 @@ export default {
     );
 
     // giscus配置
-    giscusTalk(
-        {
-          repo: 'mikigo/docs', //仓库
-          repoId: 'R_kgDOLERdHQ', //仓库ID
-          category: 'Announcements', // 讨论分类
-          categoryId: 'DIC_kwDOLERdHc4CcrSj', //讨论分类ID
-          mapping: 'pathname',
-          inputPosition: 'top',
-          lang: 'zh-CN',
-        },
-        {
-          frontmatter, route
-        },
-        //默认值为true，表示已启用，此参数可以忽略；
-        //如果为false，则表示未启用
-        //您可以使用“comment:true”序言在页面上单独启用它
-        // false
-    )
+    // giscusTalk(
+    //     {
+    //       repo: 'mikigo/docs', //仓库
+    //       repoId: 'R_kgDOLERdHQ', //仓库ID
+    //       category: 'Announcements', // 讨论分类
+    //       categoryId: 'DIC_kwDOLERdHc4CcrSj', //讨论分类ID
+    //       mapping: 'pathname',
+    //       inputPosition: 'top',
+    //       lang: 'zh-CN',
+    //     },
+    //     {
+    //       frontmatter, route
+    //     },
+    //     //默认值为true，表示已启用，此参数可以忽略；
+    //     //如果为false，则表示未启用
+    //     //您可以使用“comment:true”序言在页面上单独启用它
+    //     // false
+    // )
   },
 }

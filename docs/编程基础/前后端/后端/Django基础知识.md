@@ -151,7 +151,9 @@ eg：已查询数据库为例
 
 这里我们使用virtualenv，以下是搭建virtualenv虚拟环境的操作步骤：
 
-```sudo pip instal- virtualenv
+```bash
+
+sudo pip instal- virtualenv
 
 sudo pip instal- virtualenvwrapper
 
@@ -169,7 +171,8 @@ source ~/.bashrc
 
 基本常见命令：
 
-```创建虚拟环境 mkvirtualenv -p python3
+```bash
+创建虚拟环境 mkvirtualenv -p python3
 
 列举所有虚拟环境 workon
 

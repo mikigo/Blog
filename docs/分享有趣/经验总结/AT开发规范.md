@@ -131,7 +131,7 @@ AT 开发规范是根据自动化测试运行多年以来，遇到问题解决�
 
 - 动作开头，注意是动词；
 
-    ```txt
+    ```bash
     click
     double_click
     right_click
@@ -149,7 +149,7 @@ AT 开发规范是根据自动化测试运行多年以来，遇到问题解决�
 
 - 标定操作方法类型；
 
-    ```txt
+    ```bash
     by_ui
     by_attr
     by_mk

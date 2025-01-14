@@ -270,7 +270,7 @@ Github地址：https://github.com/appium/appium-inspector
 
 ​    用法：
 
-```txt
+```bash
 //*[@id='kw']/parent::span
 ```
 

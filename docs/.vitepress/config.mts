@@ -1,29 +1,16 @@
 import {defineConfig} from 'vitepress'
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
-import {withMermaid} from "vitepress-plugin-mermaid";
 import timeline from "vitepress-markdown-timeline";
 
 // https://vitepress.dev/reference/site-config
-export default withMermaid(
-    defineConfig({
-        base: '/Blog/',
+export default defineConfig({
+        base: process.env.VITE_BASE,
         lang: 'zh-CN',
         title: "Blog | 技术博客",
         description: "专注于测试方向的技术分享交流平台",
         head: [
             ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
-            ['link', {rel: 'icon', href: "/favicon.ico"}],
+            ['link', {rel: 'icon', href: `${process.env.VITE_BASE || '/'}favicon.ico`}],
         ],
-        vite: {
-            plugins: [
-                // add plugin
-                AutoSidebar({
-                    // You can also set options to adjust sidebar data
-                    // see option document below
-                    prefix: '.', collapsed: true
-                })
-            ]
-        },
         markdown: {
             config: (md) => {
                 md.use(timeline)
@@ -73,6 +60,7 @@ export default withMermaid(
                 },
                 {text: '关于', link: '/about'},
             ],
+            sidebar: {},
             search: {
                 provider: 'local'
             },
@@ -110,5 +98,5 @@ export default withMermaid(
             lightModeSwitchTitle: '切换到浅色模式',
             darkModeSwitchTitle: '切换到深色模式'
         },
-    })
+    }
 );

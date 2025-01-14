@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Blog
-  text: "技术分享交流平台"
+  text: "技术分享交流"
   tagline: mikigo blog
 
   image:

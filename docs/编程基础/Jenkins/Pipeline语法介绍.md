@@ -412,7 +412,7 @@ Scripts Pipeline相比Declarative Pipline更加灵活，支持条件判断、循
 
   - 书写方式：
 
-    ```gro
+    ```groovy
     stage('Test') {
         node('ubuntu_docker') {
             def output = sh(script: "cd /home; pwd", returnStdout: true , label:"into home")

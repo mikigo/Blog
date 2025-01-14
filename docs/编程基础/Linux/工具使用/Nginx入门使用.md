@@ -234,7 +234,7 @@ http {
 
 ## 反向代理
 
-```txt
+```bash
 http {
 
     upstream rpc_server {
