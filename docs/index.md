@@ -8,8 +8,8 @@ hero:
   tagline: mikigo blog
 
   image:
-      src: /logo.jpg
-      alt: mikigo
+      src: /vitepress-logo-large.webp
+      alt: VitePress
 
 features:
   - icon: 📝
