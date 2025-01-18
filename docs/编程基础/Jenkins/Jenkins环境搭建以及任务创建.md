@@ -11,19 +11,19 @@ Author: zhx
 
 1、下载kenkins容器镜像(建议下载lts稳定版本)
 
-```b
+```bash
 docker pull Jenkins/Jenkins:lts
 ```
 
 2、创建docker的文件影射卷
 
-```b
+```bash
 docker volume inspect Jenkins_zuo
 ```
 
 3、运行容器
 
-```b
+```bash
 docker run -d --name Jenkins_rongqi -p 8080:8080 -p 50000:50000 -v 
 Jenkins_zuo:/var/Jenkins_home Jenkins/Jenkins:lts
 ```
@@ -34,7 +34,7 @@ Jenkins_zuo:/var/Jenkins_home Jenkins/Jenkins:lts
 
 4、查看容器启动日志，查看Jenkins的初始密码
 
-```b
+```bash
 docker exec Jenkins_rongqi cat /var/Jenkins_home/secrets/initialAdminPassword
 ```
 
