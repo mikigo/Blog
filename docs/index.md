@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: mikigo blog
+  name: mikigo Blog
   text: "技术分享交流"
-  tagline: 
+  tagline: practice makes perfect
 
   image:
       src: /logo.gif
