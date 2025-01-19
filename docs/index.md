@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: Blog
+  name: mikigo blog
   text: "技术分享交流"
-  tagline: mikigo blog
+  tagline: 
 
   image:
-      src: /vitepress-logo-large.webp
+      src: /logo.gif
       alt: VitePress
 
 features:
