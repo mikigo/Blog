@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: mikigo Blog
-  text: "技术分享交流"
+  name: mikigo
+  text: "技术分享 Blog"
   tagline: practice makes perfect
 
   image:
-      src: /logo.gif
-      alt: VitePress
+      src: /logo.png
+      alt: mikigo
 
 features:
   - icon: 📝

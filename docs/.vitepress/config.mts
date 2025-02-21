@@ -18,7 +18,7 @@ export default defineConfig({
         },
         themeConfig: {
             // https://vitepress.dev/reference/default-theme-config
-            siteTitle: "mikigo blog",
+            siteTitle: "mikigo",
             nav: [
                 {text: '🏠首页', link: '/index'},
                 {
@@ -98,6 +98,12 @@ export default defineConfig({
                         text: "自动化测试框架",
                         collapsed: true,
                         items: [
+                            {
+                                text: "",
+                                items: [
+                                    
+                                ]
+                            },
                             {text: "Pytest从入门到起飞", link: "/自动化技术/自动化测试框架/Pytest从入门到起飞"},
                             {text: "unittest—3小时入门版", link: "/自动化技术/自动化测试框架/unittest—3小时入门版"},
                         ]
